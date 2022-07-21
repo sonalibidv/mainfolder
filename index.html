@@ -4,209 +4,7 @@
       <link href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/v4-font-face.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
-        <style>
-            .maincontainer{
-               
-                margin-left:22%;
-                
-                height:700px;
-                width: 800px;
-                border: 1px ;
-                background-image: url(../School/resources/back3.jpg);
-                background-size: cover;
-                background-position:center;
-                
-                
-                
-                
-            }
-            .header{
-            
-                height: 200px;
-                width: 800px;
-                border: 1px;
-                background-image:url(../School/resources/std2.png);
-                
-                background-position: center;
-                background-size: cover;
-                
-                
-
-            }
-            .nev{
-                float: right;
-                
-                margin-top: -28px;
-                height: 30px;
-                width: 800px;
-                border: 1px ;
-                
-                background-color:rgb(245, 198, 242);
-                
-                border-radius: 5px;
-
-                            
-            }
-          
-         .nev ul{
-                
-                margin-top:4px; 
-                float: right;
-                text-decoration: none;   
-                display: inline-flex;   
-                list-style:none;   
-
-            }
-          
-            .nev ul li a{
-                
-                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                font-weight: bold;
-                font-size: 12px;
-                color:rgb(206, 24, 136);
-                padding: 5px 13px ;
-                text-transform: uppercase;
-                border-radius: 20px;
-                text-decoration: none;
-            
-            
-                transition: 0.6s ease-in-out;
-            }
-            .nev ul li a:hover{
-
-                background-color:rgb(247, 144, 240);
-                 color:rgb(143, 18, 49)
-            }
-            .homesub {
-                display: none;
-                
-                margin-left: 0px;
-                text-align: left;
-            
-
-            }
-            .nev ul li:hover .homesub {
-                display: block;
-                position: absolute;
-                background-color:rgb(245, 198, 242);
-             
-                text-align: left;
-
-            }
-            
-            .nev ul li:hover .homesub ul{
-                display: block;
-                margin-left: -40px;
-                
-                
-            }
-           
-                
-             .footer ul  :hover{
-
-                background-color: blueviolet;
-                color: wheat;
-                
-            
-            }
-
-            .leftsider
-            {
-                height:450px;
-                width: 180px;
-                
-                
-                display: inline;
-                float: left;
-                
-
-     }
-            .footer{
-                
-                height: 40px;
-                width: 799px;
-                
-            
-                margin-top: 451px;
-                
-                
-                background-color:rgb(245, 198, 242);
-                
-                border-radius: 5px;
-
-
-                
-            }
-            .footer ul li{
-                
-                padding: 10px;
-                list-style: none;
-                display: inline;
-                background-color:rgba(241, 129, 213, 0.151);
-                margin-left: 3px;
-                border-radius: 10px;
-                counter-reset: white;
-                
-                
-                
-            }
-            .footer ul{
-                display:flex;
-                justify-content: center;
-
-                font-size: 20px;
-            }
-            
-            .rightblk{
-
-                
-                float: right;
-                height: 450px;
-                width: 619px;
-                
-            
-                
-
-            }
-            h4{
-
-                text-align: center;
-                text-shadow: 3px 3px 3px;
-            }
-            .mar1{
-                width: 156px;
-                height:fit-content;
-                
-            }
-           /* .logo{
-                height:170px;
-                width: 80px;
-                margin-left: -60px;
-            }*/
-            .btn{
-                background-color: rgb(233, 175, 218);
-                color:rgb(206, 24, 136);
-                border-radius: 10px  ;
-                text-align: center;
-                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                font-size: large;
-                padding: 3px;
-                width:156px;
-                margin-top: 2px;
-                border: 1px solid rgb(216, 119, 208);
-                
-            }
-            .frm{
-
-                height:450px;
-                width: 620px;
-                border-style: none;
-                
-               
-            }
-                                 
-             
-        </style>
+    
     </head>
     <body>
         <div class="maincontainer">
@@ -217,7 +15,7 @@
             <div class="nev">
                 <ul>
                     
-                    <li ><a href="#">Home</a>
+                    <li ><a href="home.html" target="frm">Home</a>
                    <div class="homesub">
                         <ul>
                             
@@ -334,17 +132,22 @@
 
                 </marquee>
                 <img class="mar1" src="F:\Angular\School\resources\std3.jpg">
-                <button class="btn">News</button>
-                <button class="btn">Events</button>
-                <button class="btn">Circullar</button>
-                <button class="btn">Star of Month</button>
-                <button class="btn">Blog</button>
+                <div class="btn">     
+                <ul>
+                <li><a href="news.html" target="frm">NEWS</a></li>
+                <li><a href="event.html" target="frm">Event</a></li>
+                <li><a href="circular.html" target="frm">Circular</a></li>
+                <li><a href="stars.html" target="frm">Star of Month</a></li>
+            </ul>
+            </div>
+                
+
                 
 
 
             </div>
             <div class="rightblk">
-                <iframe class="frm" src="home.html">
+                <iframe class="frm"  name="frm"src="home.html">
                 
             </iframe> </div>
 
