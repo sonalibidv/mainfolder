@@ -7,13 +7,39 @@
     width: 800px;
     border: 1px ;
     background-image: url(../School/resources/back3.jpg);
+    backdrop-filter: 0.5;
     background-size: cover;
     background-position:center;
+ }
+ /*.container{
+    margin-left:22%;
     
+    height:700px;
+    width: 800px;
+    border: 1px ;
+    background-image: url(../School/resources/back3.jpg);
+    background-size: cover;
+    background-position:center;
+
+ }*/
+ .vision{
+    border: 1px solid grey;
+    height: 700px;
+    position: relative;
     
-    
-    
-}
+ }
+ .vision ul{
+    margin-top: 50px;
+ }
+ 
+ li{
+                font-size: 18px;
+                font-weight: 600;
+                padding: 3px;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+
+
 .header{
 
     height: 200px;
