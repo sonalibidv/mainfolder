@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        student admission form
+    </title>
+    <style>
+        label {
+            color: rgb(75, 75, 177);
+
+            text-shadow: 2px 2px 5px rgb(99, 101, 204);
+            text-transform: capitalize;
+        }
+
+        table,
+        td,
+        th {
+            border-spacing: 10px;
+        }
+
+        body {
+
+            background-color: #cccccc;
+        }
+
+        h3 {
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        }
+        h3:hover {
+  background-color: cadetblue;
+}
+label:hover {
+  background-color:rgb(211, 151, 151);}
+
+ input[type="submit"]:hover{background-color: rgb(91, 91, 158);}
+  input[type="reset"]:hover{background-color: rgb(91, 91, 158);}
+
+  input[type="checkbox"]:hover{background-color: rgb(181, 187, 207);}
+  input[type="text"]:hover{background-color: rgb(181, 187, 207); color: rgb(223, 95, 165);}
+  input[type="number"]:hover{background-color: rgb(181, 187, 207); color: rgb(223, 95, 165);}
+
+  textarea:hover{background-color: rgb(181, 187, 207); color: rgb(223, 95, 165);}
+  input[type="date"]:hover{background-color: rgb(181, 187, 207); color: rgb(223, 95, 165);}
+
+
+    </style>
+</head>
+
+
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                <h3 style="text-transform: capitalize; font-size: 25px; "> student admission form</h3>
+            </legend>
+            <table>
+                <tbody>
+
+                    <tr>
+                        <td>
+                            <label>student full name</label>
+                        </td>
+                        <td> <input type="text" placeholder="enter in capital letters"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>father's name</label>
+                        </td>
+                        <td> <input type="text" placeholder="enter in capital letters"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>mother's name</label>
+                        </td>
+                        <td> <input type="text" placeholder="enter in capital letters"></td>
+                    </tr>
+                    <tr>
+                        <td><label>permanent address</label></td>
+                        <td><textarea cols="30" rows="3"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label> present address</label></td>
+                        <td><textarea cols="30" rows="3"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>religion</label></td>
+
+                        <td><label>hindu</label>
+                            <input type="checkbox" name="hindu">
+                            <label>muslim</label>
+                            <input type="checkbox" name="muslim">
+                            <label>christion</label>
+                            <input type="checkbox" name="christion">
+                            <label>others</label>
+                            <input type="checkbox" name="others"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>gender</label></td>
+
+                        <td><label>male</label>
+                            <input type="checkbox" name="male">
+                            <label>female</label>
+                            <input type="checkbox" name="female">
+                            <label>others</label>
+                            <input type="checkbox" name="others">
+
+                    </tr>
+                    <tr>
+                        <td><label> date of birth</label></td>
+                        <td><input type="date" required></td>
+
+                    </tr>
+                    <tr>
+                        <td> <label>birth registration no.</label></td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>nationality</label></td>
+                        <td><input type="text" value="INDIAN" readonly></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>school</label></td>
+                        <td>
+                            <select>
+                                <option>elementry school</option>
+                                <option>primary school</option>
+                                <option>middle school</option>
+                                <option>secondary school</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>select standard </label></td>
+                        <td><select>
+                                <optgroup label="elementry school">
+                                    <option>nursery</option>
+                                    <option>LKG</option>
+                                    <option>UKG</option>
+
+                                </optgroup>
+                                <optgroup label="primary school">
+                                    <option>first</option>
+                                    <option>second</option>
+                                    <option>third</option>
+                                    <option>forth</option>
+                                    <option>fifth</option>
+                                </optgroup>
+                                <optgroup label="middle school">
+                                    <option>sixth</option>
+                                    <option>seventh</option>
+                                    <option>eighth</option>
+
+                                </optgroup>
+                                <optgroup label="secondary school ">
+
+                                    <option>ninth</option>
+                                    <option>tenth</option>
+                                </optgroup>
+                            </select></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label>contact number</label></td>
+                        <td><input type="number" required placeholder="enter reachable no please"></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label>whatsapp number</label></td>
+                        <td><input type="number" required placeholder=""></td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <footer>
+
+                <p>
+
+
+                    <label>signature of student</label>
+                    <input type="text" name="signature of student">
+                    <label>signature of parent</label>
+                    <input type="text" name="signature of parent">
+                    <label>signature of principal</label>
+                    <input type="text" name="signature of principal">
+                </p>
+                <tr>
+                    <td> <input type="submit"></td>&nbsp;&nbsp;
+                    <td> <input type="reset"></td>
+                </tr>
+            </footer>
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        registration form
+    </title>
+    <style>
+        label {color: rgb(141, 100, 47);
+            
+            text-shadow: 2px 2px 5px rgb(99, 101, 204);
+            text-transform: capitalize;
+        }
+
+        table,
+        td,
+        th {
+            border-spacing: 10px;
+        }
+
+        h2 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+            text-transform: capitalize;
+        }
+        body {
+ 
+ background-color: #cccccc;
+}
+h2:hover {
+            background-color: cadetblue;
+        }
+
+        label:hover {
+            background-color: darksalmon;
+        }
+        
+
+    </style>
+
+
+
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                <h2> student registration form</h2>
+            </legend>
+            <table>
+                <tbody>
+
+                    <tr>
+                        <td>
+                            <label for="first name">first name</label>
+                        </td>
+                        <td> <input type="text" id="first name" placeholder="only first name"></td>
+                    </tr>
+                    <tr>
+                        <td><label>middle name</label></td>
+                        <td><input type="text" placeholder="middle name"></td>
+                    </tr>
+                    <tr>
+                        <td><label>last name</label></td>
+                        <td><input type="text" placeholder="last name"></td>
+                    </tr>
+                    <tr>
+                        <td><label>student's date of birth</label></td>
+                        <td><input type="date"></td>
+
+                    </tr>
+
+                    <tr>
+                        <td> <label>contact no</label></td>
+                        <td><input type="number" required placeholder="enter with countrycode"></td>
+                    </tr>
+                    <tr>
+                        <td><label>gender</label></td>
+                        <td>
+                            <select>
+                                <option>male</option>
+                                <option>female</option>
+                                <option>other</option>
+
+                            </select>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td><label>address</label></td>
+                        <td><textarea cols="26" rows="8"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td> <input type="submit"></td>
+                        <td> <input type="reset"></td>
+                    </tr>
