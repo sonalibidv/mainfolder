@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        transport facility form
+    </title>
+    <style>
+        label {color: rgb(75, 75, 177);
+            
+            text-shadow: 2px 2px 5px rgb(99, 101, 204);
+            text-transform: capitalize;
+        }
+
+        table,
+        td,
+        th {
+            border-spacing: 10px;
+        }
+        h3{text-transform: capitalize ;}
+        h3 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+        body {
+
+ background-color: #cccccc;
+}
+#h3{color: rgb(79, 79, 233) ; text-shadow: darkgrey;
+    text-decoration: underline;}
+
+h3:hover {
+  background-color: cadetblue;
+}
+label:hover {
+  background-color:rgb(211, 151, 151);
+}
+#h3:hover{background-color: darkgoldenrod;}
+
+input[type="submit"]:hover{background-color: rgb(91, 91, 158);}
+  input[type="reset"]:hover{background-color: rgb(91, 91, 158);}
+
+  
+  </style>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend>
+                <h3 > application for transport facility</h3>
+            </legend>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label>admission number</label></td>
+                        <td><input type="text"  required></td>
+                    </tr>
+                    <tr>
+                        <td><label>student name</label></td>
+                        <td><input type="text"required placeholder=""></td>
+                    </tr>
+                    <tr>
+                        <td><label>father's name</label></td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>mother's name</label></td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>guardian name</label></td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>date of birth</label></td>
+                        <td><input type="date"></td>
+
+                    </tr>
+                    <tr>
+                        <td> <label>contact number</label></td>
+                        <td><input type="number" required placeholder="enter reachable no please"></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label>whatsapp number</label></td>
+                        <td><input type="number" required placeholder=""></td>
+                    </tr>
+                    <tr>
+                        <td><label>school</label></td>
+                        <td>
+                            <select>
+                                <option>elementry school</option>
+                                <option>primary school</option>
+                                <option>middle school</option>
+                                <option>secondary school</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>select standard </label></td>
+                        <td><select>
+                                <optgroup label="elementry school">
+                                    <option>nursery</option>
+                                    <option>LKG</option>
+                                    <option>UKG</option>
+
+                                </optgroup>
+                                <optgroup label="primary school">
+                                    <option>first</option>
+                                    <option>second</option>
+                                    <option>third</option>
+                                    <option>forth</option>
+                                    <option>fifth</option>
+                                </optgroup>
+                                <optgroup label="middle school">
+                                    <option>sixth</option>
+                                    <option>seventh</option>
+                                    <option>eighth</option>
+
+                                </optgroup>
+                                <optgroup label="secondary school ">
+
+                                    <option>ninth</option>
+                                    <option>tenth</option>
+                                </optgroup>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><label>correspondence address</label></td>
+                        <td><textarea cols="25" rows="3"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label>permanent address</label></td>
+                        <td><textarea cols="25" rows="3"></textarea></td>
+                    </tr>
+                </tbody>
+            </table>
+            <footer>
+                <p>
+                   <span> <h3>transport facility details:</h3></span>
+                    <label>name of stop(from)</label>
+                    <input type="text" required>
+                    <label>bus no.</label>
+                    <input type="number" required>
+                </p>
+                    <p>
+                      <span> <h3> office use only:</h3></span>
+                        <label>transport fees</label>
+                    <input type="text" required>
+                    <label>office in charge</label>
+                    <input type="text">
+                    </p>
+                    <p>
+                       <span> <h3>Declaration:</h3></span>
+                        <p id="h3">I hereby declare that I have taking transport facility of school for the session 2022-23.   I will not 
+withdraw the transport facility during the session, if withdraw, I will pay transport fee with 
+penalty. </p>
+
+                    </p>
+                    <p>
+
+
+                        <label>sign of student</label>
+                        <input type="text" name="signature of student">
+                        <label>sign of parent/guardian</label>
+                        <input type="text" name="signature of parent/guardian">
+                       
+                    </p>
+                    <p>
+
+
+                        <label> date </label>
+                        <input type="date" required>
+                        <label>signature of principal</label>
+                        <input type="text" name="signature of principal">
+                    </p>
+                    <p>
+                        
+                        <input type="submit"></td>&nbsp;&nbsp;
+                        <input type="reset"></td>
+                   
+                </p>
+                
+                </footer>
+        </fieldset>
+    </form>
+   
+</body>
+</html>
+                   
